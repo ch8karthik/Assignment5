@@ -3,7 +3,7 @@ agent any
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/BThangaraju/Jenkins.git'
+                git 'https://github.com/karthikchapalamadugu/Assignment5'
             }
         }
         stage('Build Code') {
@@ -14,8 +14,8 @@ agent any
         }
      stage('Test Code') {
             steps {
-                sh "chmod u+x Testsub.py"
-                sh "./Testsub.py"
+                sh "chmod u+x Testforsub.py"
+                sh "./Testforsub.py"
             }
         }
     } 
