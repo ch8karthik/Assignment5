@@ -2,7 +2,7 @@
 # Test case for subtracting two numbers
 import unittest
 
-from Prog1 import subtraction
+from code import subtraction
 
 class TestSub(unittest.TestCase):
     def test_list_int(self):
@@ -12,7 +12,7 @@ class TestSub(unittest.TestCase):
         a = 32
         b = 23
         result = subtraction(a,b)
-        self.assertEqual(result, 55)
+        self.assertEqual(result, 9)
 
 if __name__ == '__main__':
     unittest.main()
