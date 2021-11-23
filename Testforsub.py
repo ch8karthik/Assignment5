@@ -10,7 +10,7 @@ class TestSub(unittest.TestCase):
         Test case to subtract two numbers
         """
         a = 32
-        b = 23
+        b = 24
         result = subtraction(a,b)
         self.assertEqual(result, 9)
 
